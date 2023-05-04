@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: {{ .Values.deployment.frontend.labels.app }}
-        date: {{ .Release.Time.Seconds }}
+        date: "{{ now | unixEpoch }}"
     spec:
       containers:
         - name: {{ .Values.deployment.frontend.container.name }}
@@ -33,7 +33,7 @@ spec:
     metadata:
       labels:
         app: {{ .Values.deployment.backend.labels.app }}
-        date: {{ .Release.Time.Seconds }}
+        date: "{{ now | unixEpoch }}"
     spec:
       containers:
         - name: {{ .Values.deployment.backend.container.name }}
