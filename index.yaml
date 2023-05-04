@@ -3,12 +3,22 @@ entries:
   pe-group:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-04T17:52:30.376731+08:00"
+    created: "2023-05-04T17:59:12.642114+08:00"
+    description: A Helm chart for Kubernetes
+    digest: b8d31f586f80ac0aa54519c1c92abb3abd521dab22ec414c041d6e5c57d289fe
+    name: pe-group
+    type: application
+    urls:
+    - https://minchenlee.github.io/helm-chart/pe-group-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-04T17:59:12.64249+08:00"
     description: A Helm chart for Kubernetes
     digest: d70c7c7221bc0ee19a0b279b3b223894db65267c6e9ed08a9642b6fd20cceece
     name: pe-group
     type: application
     urls:
     - https://minchenlee.github.io/helm-chart/pe-group-0.1.1.tgz
-    version: 0.1.0
-generated: "2023-05-04T17:52:30.375949+08:00"
+    version: 0.1.1
+generated: "2023-05-04T17:59:12.640318+08:00"
