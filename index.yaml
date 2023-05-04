@@ -3,7 +3,17 @@ entries:
   pe-group:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-04T20:46:08.55625+08:00"
+    created: "2023-05-04T20:57:21.682914+08:00"
+    description: A Helm chart for Kubernetes
+    digest: ccca319703fbf9f5bb41d9b321e52c25d1130efe5766b7f6b3794813bd342c46
+    name: pe-group
+    type: application
+    urls:
+    - https://minchenlee.github.io/helm-chart/pe-group-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-04T20:57:21.68263+08:00"
     description: A Helm chart for Kubernetes
     digest: 0db9a3507001f29e05e9c7fda3979e571c0111e2fdb5dfba384aec6a562b4995
     name: pe-group
@@ -13,7 +23,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-04T20:46:08.555951+08:00"
+    created: "2023-05-04T20:57:21.682102+08:00"
     description: A Helm chart for Kubernetes
     digest: 9c3c8f8d9c44f1ac66e5c700f8161ee7344031d82541b873fe024bdb8fb39e82
     name: pe-group
@@ -23,7 +33,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-04T20:46:08.555507+08:00"
+    created: "2023-05-04T20:57:21.680118+08:00"
     description: A Helm chart for Kubernetes
     digest: df1bc68aaa29011829bcf6161d7617c73b3fe0d05887f4ce9bd086741483b43d
     name: pe-group
@@ -33,7 +43,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-04T20:46:08.554589+08:00"
+    created: "2023-05-04T20:57:21.67909+08:00"
     description: A Helm chart for Kubernetes
     digest: b8d31f586f80ac0aa54519c1c92abb3abd521dab22ec414c041d6e5c57d289fe
     name: pe-group
@@ -43,7 +53,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-04T20:46:08.55499+08:00"
+    created: "2023-05-04T20:57:21.679623+08:00"
     description: A Helm chart for Kubernetes
     digest: d70c7c7221bc0ee19a0b279b3b223894db65267c6e9ed08a9642b6fd20cceece
     name: pe-group
@@ -51,4 +61,4 @@ entries:
     urls:
     - https://minchenlee.github.io/helm-chart/pe-group-0.1.1.tgz
     version: 0.1.0
-generated: "2023-05-04T20:46:08.553783+08:00"
+generated: "2023-05-04T20:57:21.677224+08:00"

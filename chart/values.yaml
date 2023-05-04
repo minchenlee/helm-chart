@@ -48,15 +48,15 @@ service:
 ingress:
   annotations:
     nginx.ingress.kubernetes.io/use-regex: "true"
-    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    # nginx.ingress.kubernetes.io/rewrite-target: /$2
 
   frontendService:
-    path: /(?!(api))(.*)
+    path: /
     name: frontend-service
     port: 80
   
   backendService:
-    path: /api(/|$)(.*)
+    path: /api
     name: backend-service
     port: 80
 
