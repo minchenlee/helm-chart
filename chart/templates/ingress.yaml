@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ .Chart.Name }}-web
+  annotations:
+    {{ toYaml .Values.ingress.annotations | nindent 4 }}
+spec:
+  ingressClassName: nginx
+  rules:
+    - http:
+        paths:
+        - path: {{ .Values.ingress.frontendService.path }}
+          pathType: Prefix
+          backend:
+            service:
+              name: {{ .Values.ingress.frontendService.name }}
+              port:
+                number: {{ .Values.ingress.frontendService.port }}
+    - http:
+        paths:
+        - path: {{ .Values.ingress.backendService.path }}
+          pathType: Prefix
+          backend:
+            service:
+              name: {{ .Values.ingress.backendService.name }}
+              port:
+                number: {{ .Values.ingress.backendService.port }}
